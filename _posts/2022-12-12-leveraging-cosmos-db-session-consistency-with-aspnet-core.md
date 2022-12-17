@@ -39,7 +39,7 @@ when she refreshes the page, she expects her sticky-note to still be there, even
 just a second after posting it. Eventual consistency is not good enough for her
 here - Sandy expects to read-her-own-writes, an element of strong consistency.
 
-Cosmos DB's session [session consistency] mode covers both experiences how Sandy
+Cosmos DB's [session consistency] mode covers both experiences how Sandy
 expects, with low cost and high performance similar to eventual consistency -
 making it a great fit for TweetBookIt™.
 
