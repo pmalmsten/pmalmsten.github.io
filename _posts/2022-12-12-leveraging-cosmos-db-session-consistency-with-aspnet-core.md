@@ -14,7 +14,7 @@ consistency](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-level
 However, Cosmos DB also offers additional options between those extremes,
 including [consistent
 prefix](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels#consistent-prefix-consistency),
-[session],
+[session][session consistency],
 and [bounded
 staleness](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels#bounded-staleness-consistency),
 each providing stronger guarantees than the last.
